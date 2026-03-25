@@ -33,7 +33,7 @@ const experiences = [
     title: "Assistant CRM Manager",
     company: "DYSON CHINA",
     location: "Shanghai, China",
-    date: "July 2021 - June 2023",
+    date: "March 2019 - June 2023",
     points: [
       "WeChat Mini-program Operations & Revamp: Led WeChat Mini-program revamp to enhance user experience; Integrated offline and online data to enable seamless user journey, attracting 100+ monthly orders from offline to online channels",
       "Lifecycle Content Campaign: Designed and executed lifecycle content strategy based on customer purchase cycles, delivering personalized content via WeChat Mini-program with product recommendations",
