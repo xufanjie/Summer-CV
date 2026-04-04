@@ -17,10 +17,11 @@ export default function About() {
           <div className="w-20 h-1 bg-business-blue mx-auto mb-8"></div>
           
           <p className="text-lg text-gray-600 leading-relaxed text-justify md:text-center">
-            With over 5 years in digital marketing and CRM, I specialize in WeChat Mini-program operations, 
-            lifecycle management, and Tencent ecosystem integration. My expertise lies in Mini-program optimization, 
-            content-based lifecycle campaigns, and cross-functional collaboration. I am passionate about optimizing 
-            user journeys across touchpoints to improve engagement, conversion rates, and overall customer lifetime value.
+            With 7 years of experience as a CRM Professional, my expertise spans omni-channel strategies, 
+            encompassing both retail and online environments. I have a proven track record in driving business 
+            growth and improving Customer Lifetime Value (LTV) through loyalty program development, member 
+            activation, and data-driven marketing. I excel in implementing robust CRM strategies and leading 
+            cross-functional collaborations to deliver measurable impact across various digital and physical touchpoints.
           </p>
         </motion.div>
       </div>

@@ -1,23 +1,23 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { GraduationCap, Award, Code, Globe, LineChart } from "lucide-react";
+import { GraduationCap, Code, Globe, LineChart, Target, Building } from "lucide-react";
 
 const skills = [
   {
     category: "Digital Marketing & CRM",
     icon: <LineChart className="w-5 h-5" />,
-    items: ["WeChat Mini-program Management", "Lifecycle Marketing", "CRM Operations", "User Journey Optimization", "Tencent Ecosystem"],
+    items: ["Omni-channel CRM", "Loyalty Program Development", "Member Activation", "CRM Strategy", "Data-driven Marketing"],
   },
   {
-    category: "Technical Skills",
+    category: "Data & Technical Skills",
     icon: <Code className="w-5 h-5" />,
-    items: ["Python for Data Analysis", "Tableau", "SQL"],
+    items: ["Python", "Tableau", "SQL", "Data Processing", "Microsoft Office (PPT, Excel)"],
   },
   {
-    category: "Languages & Certifications",
+    category: "Certifications & Languages",
     icon: <Globe className="w-5 h-5" />,
-    items: ["Fluent English (BEC Higher)", "Native Mandarin", "PMP (Project Management Professional)"],
+    items: ["PMP Certificate", "Fluent English (BEC Higher)", "Native Mandarin"],
   },
 ];
 

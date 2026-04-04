@@ -1,43 +1,45 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { TrendingUp, Smartphone, RefreshCw, Star } from "lucide-react";
+import { TrendingUp, Smartphone, RefreshCw, Star, Gift } from "lucide-react";
 
 const projects = [
   {
     id: 1,
-    title: "Member Festival Live-Stream",
+    title: "Member Festival Live-Stream Traffic Optimization",
     company: "Disney",
     date: "Aug 2024 - Sep 2024",
     icon: <TrendingUp className="w-6 h-6 text-business-blue" />,
     points: [
-      "Optimized live-stream traffic through paid media and CRM SMS activation, boosting viewership and coupon redemption",
-      "Achieved 15K direct viewer UV with CPUV ~RMB13 (below industry average), helped WeChat Channel promote live-stream with 800K total viewership",
-      "Set CRM SMS activations for existing consumers, resulting in 15% coupon redemption rate",
+      "Led CRM-driven live-stream campaign to activate existing members and acquire new users via paid media and WeChat ecosystem",
+      "Designed segmented SMS activation strategy (pre-event engagement + post-event conversion reminder), improving coupon redemption rate to 15% (highest in Disney ODC channel)",
+      "Drove 800K+ viewership and 15K high-quality users, significantly exceeding historical benchmarks",
+      "Leveraged CRM insights to optimize traffic allocation and improve conversion efficiency across channels",
     ],
   },
   {
     id: 2,
-    title: "WeChat Mini-program Revamp",
-    company: "Dyson",
-    date: "Jul 2022 - Nov 2022",
-    icon: <Smartphone className="w-6 h-6 text-business-blue" />,
+    title: "WeChat Red Packet Campaign",
+    company: "Disney",
+    date: "Dec 2023 - Feb 2024",
+    icon: <Gift className="w-6 h-6 text-business-blue" />,
     points: [
-      "Led WeChat Mini-program update for better user experience and traffic optimization",
-      "Connected offline and online data to enable offline-to-online conversion, attracting 100+ monthly orders",
-      "Optimized Mini-program interface highlighting consumer benefits and brand contents, increasing related page UV",
+      "Spearheaded end-to-end CRM campaign via WeChat Mini Program, integrating social platforms (Xiaohongshu, Douyin, Weibo) for omni-channel acquisition",
+      "Acquired 100K+ new followers and generated 1M+ user engagements, exceeding growth KPIs",
+      "Collaborated with product, tech, and creative teams to launch interactive “Family Portrait” feature, enhancing user engagement and shareability",
+      "Strengthened private traffic pool through social-driven CRM activation strategy",
     ],
   },
   {
     id: 3,
-    title: "Trade-in/Up Program Launch",
+    title: "Trade-in/up Program",
     company: "Dyson",
     date: "Jun 2022 - Sep 2022",
     icon: <RefreshCw className="w-6 h-6 text-business-blue" />,
     points: [
-      "Led multi-functional coordination for trade-in/up program launch, including internal stakeholders and external partners",
-      "Introduced Aihuishou as trade-in partner for Dyson's own program",
-      "Achieved 700+ sell-outs accounting for 60% of relevant SKU sales",
+      "Led cross-functional execution of trade-in campaign across Supply Chain, Marketing, Finance, and Sales",
+      "Designed multi-channel CRM communication strategy (stores, mini-program, paid media, SMS), achieving ~60% sales contribution from campaign SKUs, 700+ units sold",
+      "Introduced membership-based trade-in incentives to enhance customer retention and conversion",
     ],
   },
   {
@@ -47,9 +49,23 @@ const projects = [
     date: "Sep 2021 - Jun 2022",
     icon: <Star className="w-6 h-6 text-business-blue" />,
     points: [
-      "Worked with internal/external parties to seek opportunities for loyalty program improvement",
-      "Collaborated with Consumer Insight team to identify consumer needs and support program development",
-      "Coordinated cross-functional teams to implement designed benefits and loyalty schemes",
+      "Redesigned CRM loyalty program based on customer insights and lifecycle analysis, and created a layered membership project while aligning with global strategy",
+      "Partnered with Consumer Insight team to identify user needs and optimize membership benefits structure",
+      "Collaborated with cross-functional teams to implement loyalty mechanics and improve member engagement",
+      "Enhanced CRM-driven retention strategy by aligning benefits with customer value segments",
+    ],
+  },
+  {
+    id: 5,
+    title: "WeChat Mini-program Revamp",
+    company: "Dyson",
+    date: "Jul 2022 - Nov 2022",
+    icon: <Smartphone className="w-6 h-6 text-business-blue" />,
+    points: [
+      "Optimized WeChat Mini Program to improve CRM-driven user journey and conversion funnel",
+      "Integrated online-offline data to enable seamless member experience and traffic redirection, resulting in 100+ incremental units sales from O2O",
+      "Increased user session duration by 15% through improved UX and content personalization",
+      "Supported CRM campaigns with enhanced digital touchpoints",
     ],
   },
 ];
@@ -78,7 +94,9 @@ export default function Projects() {
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
               whileHover={{ y: -5 }}
-              className="bg-white border border-gray-100 rounded-xl p-8 shadow-sm hover:shadow-xl transition-all duration-300 relative overflow-hidden group"
+              className={`bg-white border border-gray-100 rounded-xl p-8 shadow-sm hover:shadow-xl transition-all duration-300 relative overflow-hidden group ${
+                projects.length % 2 !== 0 && index === projects.length - 1 ? 'md:col-span-2 md:max-w-2xl md:mx-auto w-full' : ''
+              }`}
             >
               <div className="absolute top-0 left-0 w-full h-1 bg-business-light group-hover:bg-business-blue transition-colors duration-300"></div>
               

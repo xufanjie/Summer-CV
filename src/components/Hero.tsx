@@ -13,7 +13,7 @@ export default function Hero() {
           transition={{ duration: 0.5 }}
         >
           <h2 className="text-business-blue font-semibold tracking-wide uppercase text-sm md:text-base mb-4">
-            Digital Marketing & CRM Professional
+            CRM Professional
           </h2>
         </motion.div>
         
@@ -34,8 +34,9 @@ export default function Hero() {
           className="max-w-2xl text-gray-600 text-lg md:text-xl mb-10"
         >
           <p>
-            Specializing in WeChat Mini-program operations, lifecycle management, and Tencent ecosystem integration. 
-            Driving direct conversion and loyalty through data-driven insights.
+            CRM Professional with 7 years of experience in omni-channel including retail and online.
+            Proven track record in loyalty program development, member activation, and data-driven marketing.
+            Expertise in CRM strategy, and cross-functional collaboration to drive LTV and business growth.
           </p>
         </motion.div>
 

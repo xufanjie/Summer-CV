@@ -11,9 +11,9 @@ const experiences = [
     location: "Shanghai, China",
     date: "May 2025 - Present",
     points: [
-      "Execute consumer relationship strategies to drive direct conversion and loyalty through data-driven insights",
-      "Lead marketing leads forecasting and implement MGM programs for new user acquisition",
-      "Optimize user journeys across touchpoints to improve engagement and conversion rates",
+      "Lead CRM strategy and operations for 500+ offline retail stores, driving member acquisition, activation, and retention",
+      "Partner closely with sales teams to design and execute in-store activation programs (referral events, tea sessions, expert days), improving hearing test appointment rate and final conversion",
+      "Monitor real-time performance data by region, provide actionable insights and business recommendations to empower frontline sales teams",
     ],
   },
   {
@@ -23,21 +23,21 @@ const experiences = [
     location: "Shanghai, China",
     date: "July 2023 - October 2024",
     points: [
-      "Develop landing pages and CTAs to support paid media strategy execution, improving member recruitment and conversion",
-      "Optimize assets and landing pages to enhance user experience and conversion performance",
-      "Execute CRM strategies to maintain consumer lifecycle operations and increase LTV",
+      "Set up strategies of paid media CTA and landings to improve media efficiency",
+      "Improved member recruitment and purchaser conversion by strategically adjusting assets and landings",
+      "Set up and launch CRM strategies to maintain consumer lifecycle operation and lift LTV with rolling and once-off activations",
     ],
   },
   {
     id: 3,
-    title: "Assistant CRM Manager",
+    title: "Assistant CRM Manager / Senior CRM Exec / CRM Exec",
     company: "DYSON CHINA",
     location: "Shanghai, China",
     date: "March 2019 - June 2023",
     points: [
-      "WeChat Mini-program Operations & Revamp: Led WeChat Mini-program revamp to enhance user experience; Integrated offline and online data to enable seamless user journey, attracting 100+ monthly orders from offline to online channels",
-      "Lifecycle Content Campaign: Designed and executed lifecycle content strategy based on customer purchase cycles, delivering personalized content via WeChat Mini-program with product recommendations",
-      "Cross-functional Collaboration: Coordinated with digital marketing, product, and tech teams to deliver Mini-program features",
+      "Completed MT program with rotations across CRM functions",
+      "Omni-channel CRM experience (WeChat D2C, TM/JD, Retail CRM), focused on data-driven member and owner operation with different focus according to each platform's characteristic",
+      "Experienced in all stages of CRM lifecycle from recruitment to engagement to conversion to service",
     ],
   },
 ];
