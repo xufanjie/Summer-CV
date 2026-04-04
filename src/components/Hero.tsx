@@ -31,7 +31,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.4 }}
-          className="max-w-3xl text-gray-600 text-lg md:text-xl mb-10 flex flex-col gap-3"
+          className="max-w-5xl text-gray-600 text-base md:text-lg mb-10 flex flex-col gap-2 px-2"
         >
           <p>
             <strong>CRM Professional</strong> with <strong>7 years of experience</strong> in <strong>omni-channel</strong> including retail and online.
