@@ -31,12 +31,16 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.4 }}
-          className="max-w-2xl text-gray-600 text-lg md:text-xl mb-10"
+          className="max-w-3xl text-gray-600 text-lg md:text-xl mb-10 flex flex-col gap-3"
         >
           <p>
-            CRM Professional with 7 years of experience in omni-channel including retail and online.
-            Proven track record in loyalty program development, member activation, and data-driven marketing.
-            Expertise in CRM strategy, and cross-functional collaboration to drive LTV and business growth.
+            <strong>CRM Professional</strong> with <strong>7 years of experience</strong> in <strong>omni-channel</strong> including retail and online.
+          </p>
+          <p>
+            Proven track record in <strong>loyalty program development</strong>, <strong>member activation</strong>, and <strong>data-driven marketing</strong>.
+          </p>
+          <p>
+            Expertise in <strong>CRM strategy</strong>, and <strong>cross-functional collaboration</strong> to drive <strong>LTV</strong> and <strong>business growth</strong>.
           </p>
         </motion.div>
 
